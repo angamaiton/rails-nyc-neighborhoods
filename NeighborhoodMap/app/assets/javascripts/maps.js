@@ -84,7 +84,7 @@ function changeColor(el){
   var name = $(el).text();
   var string = "path[id='" + name + "']";
   var $path = $(string);
-  $path.css("fill","blue");
+  $path.css("fill","cyan");
   $('#neighborhood_details').hide();
   showData(name);
 }
